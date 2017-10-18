@@ -78,7 +78,6 @@ module.exports = function(gulp, userConfig){
         livescript: require(sPath + 'livescript')(gulp, options),
         minify_css: require(sPath + 'minifyCss')(gulp, options),
         minify_js: require(sPath + 'minifyJs')(gulp, options),
-        sass: require(sPath + 'sass')(gulp, options),
         tsc: require(sPath + 'tsc')(gulp, options),
         tslint: require(sPath + 'tslint')(gulp, options)
     };
